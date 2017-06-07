@@ -1,0 +1,216 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media screen and (max-width: 640px) {
+
+/* Header style -
+in this code part you can only <header> section from all page*
+*******************************************************************/
+	
+header > div {
+	height: auto;
+	width: 100%;
+	max-width: 1280px;
+	min-width: 300px;
+	margin: 0 auto;
+	text-align: center;
+	overflow: hidden;
+}
+
+
+.idea_logo img {
+	margin-top: 30px;
+	width: 40%;
+}
+
+.idea_rrss {
+	display: -webkit_flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction:column;
+	flex-wrap: wrap;
+	justify-content:center;
+	}
+
+.idea_rrss > div {
+	margin-bottom: 5px;
+	width: 100%;
+}
+
+.idea_rrss .box_pop img {
+	width: 26%;
+}
+
+.idea_rrss .box_rrss {
+	text-align: center;
+}
+
+.idea_rrss .box_rrss img {
+	width: 40px;
+	padding: 0px 10px 0px 0px;;
+}
+	
+/* nav style
+in this code part you can only edit only <nav> section from all page
+*******************************************************************/
+	
+	.idea_nav_btn img {
+		display: none;
+	}
+	
+	.idea_nav .idea_nav_btn {
+	font-size: 12.5px;
+}
+	
+/* principal section style
+in this code part you can only edit only <nav> section from all page
+*******************************************************************/
+
+.elideario_A {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: column-reverse;
+	flex-wrap: nowrap;
+}
+
+.elideario_A .h01a {
+	width: 100%;
+	min-width: 300px;
+	min-height: 250px;
+}
+
+.elideario_A .h01b {
+	width:  100%;
+	min-width: 300px;
+	min-height: 100px;
+	background-color: #ecf2ff;
+	overflow: hidden;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content:space-between;
+}
+	
+.elideario_A .h01b > div {
+	padding: 6% 6% 6% 6%;
+}
+
+.elideario_A .h01b .intro_head {
+	font-size: 30px;
+}
+
+.elideario_A .h01b .intro_footer .if_A {
+	font-size: 30px;
+	padding: 0px 0px 15px 0px;
+	border: solid 1px #0033cc;
+	border-width: 0px 0px 1px 0px;
+}
+
+.elideario_A .h01b .intro_footer .if_B {
+	font-size: 20px;
+	color: #0033cc;
+	padding: 15px 0px 0px 0px;
+}
+	
+/* Analisis section style
+in this code part you can only edit only <nav> section from all page
+*******************************************************************/
+	.section_analist .box_analist .title_analist {
+	font-size: 24px;
+}
+	
+	.section_analist .box_analist .content_analist {
+	font-size: 19px;
+}
+	
+/* footer style
+in this code part you can only edit only <footer> section from all page
+*******************************************************************/
+	
+footer {
+	width: 100%;
+	max-width: 1280px;
+	min-height: 300px;
+	margin: 40px auto 0px;
+	background-color: #0033cc;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content:center;
+}
+
+footer .logo_footer, .main_footer{
+	width: 100%;
+	min-width: 300px;
+	text-align: center;
+}
+
+footer .logo_footer div img {
+	width: 50%;
+	padding: 0px 0px 0px 0px;
+}
+
+footer .main_footer{
+	width: 100%;
+	min-width: 300px;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content:space-around;
+	padding: 40px 0px 0px 0px;
+}
+
+footer .main_footer div ul li {
+	color: #ffffff;
+	list-style: none;
+	padding: 2px;
+}
+	
+/* detail new style -
+in this code part you can edit de style page*
+*******************************************************************/
+
+.detail_head {
+	width: 100%;
+	min-width: 300px;
+	max-width: 1280px;
+	min-height: 30px;
+	margin: 22px auto;
+}
+
+.detail_photo {
+	width: 100%;
+	min-height: 300px;
+	min-width: 300px;
+	display:  -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content:space-between;
+}
+	
+.detail_photo .detail_title {
+	font-size: 25px;
+}
+
+.detail_photo > div {
+	width: 100%;
+	color: #ffffff;
+	text-align: center;
+	letter-spacing: 1.5px;
+	padding: 30px 0px 30px 0px;
+}
+	
+.detail_content .txt_1, .txt_2 {
+	font-size: 18px;
+}
+	
+}

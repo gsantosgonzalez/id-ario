@@ -1,0 +1,529 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+    font-family: elideario;
+    src: url(/fonts/Futura/FuturaStd-Light.otf);
+}
+
+html, body, header, section, nav, ol, ul, il, p, a {
+	margin: 0;
+	padding: 0;
+	font-family: elideario;
+}
+
+
+/* box title style */
+
+.box_title {
+	width: 100%;
+	background-color: #0033cc;
+	height: 75px;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.box_title  > div {
+	margin: 0px 10px 0px 0px;
+}
+
+.box_title_b {
+	width: 100%;
+	background-color: #5b93ff;
+	height: 75px;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.box_title_b  > div {
+	margin: 0px 10px 0px 0px;
+}
+
+.txt_title {
+	font-size: 30px;
+	color: #ffffff;
+}
+
+
+/* Header style -
+in this code part you can only olnly <header> section from all page*
+*******************************************************************/
+
+header > div {
+	height: auto;
+	width: 100%;
+	max-width: 1280px;
+	min-width: 300px;
+	margin: 0 auto;
+	text-align: center;
+	overflow: hidden;
+}
+
+
+.idea_logo img {
+	margin-top: 30px;
+	width: 40%;
+}
+
+.idea_rrss {
+	display: -webkit_flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content:space-between;
+	}
+
+.idea_rrss > div {
+	margin-bottom: 20px;
+	width: 33%;
+}
+
+.idea_rrss .box_pop img {
+	width: 60%;
+}
+
+.idea_rrss .box_rrss {
+	text-align: right;
+}
+
+.idea_rrss .box_rrss img {
+	width: 40px;
+	padding: 0px 10px 0px 0px;;
+}
+
+/* nav style
+in this code part you can only edit only <nav> section from all page
+*******************************************************************/
+
+.idea_nav {
+	height: 44px;
+	width: 100%;
+	max-width: 1280px;
+	margin: 14px auto 0px;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content:space-between;
+	align-items: center;
+	border: solid #0033cc;
+	border-width: 1.5px 0px 1.5px 0px;
+}
+
+.idea_nav .idea_nav_btn {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 19%;
+	height: 28px;
+	border: solid #0033cc;
+	border-width: 0px 1px 0px 0px;
+	color: #0033cc;
+	text-align: center;
+	overflow: hidden;
+	font-size: 16px;
+}
+
+.idea_nav .idea_nav_btn:hover {
+	text-decoration: underline;
+}
+
+.idea_nav_btn:last-child {
+	border: none;
+}
+
+.idea_nav_btn img {
+	width: 24px;
+	padding: 0px 4px 0px 0px;
+}
+
+.idea_nav .first_btn {
+	height: 44px;
+	color: #ffffff;
+	background-color: #0033cc;
+}
+
+.btn_nav {
+	color: #0033cc;
+	text-decoration: none;
+}
+
+/* principal section style
+in this code part you can only edit only <nav> section from all page
+*******************************************************************/
+
+.elideario_A, .elideario_B, .elideario_C {
+	max-width: 1280px;
+	min-width: 300px;
+	height: auto;
+	min-height: 10px;
+	margin: 22px auto;
+}
+
+.elideario_A {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.elideario_A .h01a {
+	width: 70%;
+	min-height: 600px;
+	min-width: 300px;
+	background-repeat: no-repeat;
+	background-image: url(../imgs/imgs/0000a.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+
+.elideario_A .h01b {
+	width:  30%;
+	min-width: 300px;
+	min-height: 600px;
+	background-color: #ecf2ff;
+	overflow: hidden;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: column;
+	justify-content:space-between;
+}
+
+.elideario_A .h01b > div {
+	padding: 16% 6% 6% 6%;
+}
+
+.elideario_A .h01b .intro_head {
+	font-size: 40px;
+}
+
+.elideario_A .h01b .intro_footer .if_A {
+	font-size: 30px;
+	padding: 0px 0px 22px 0px;
+	border: solid 1px #0033cc;
+	border-width: 0px 0px 1px 0px;
+}
+
+.elideario_A .h01b .intro_footer .if_B {
+	font-size: 20px;
+	color: #0033cc;
+	padding: 22px 0px 0px 0px;
+}
+
+/* Analisis section style
+in this code part you can only edit only <nav> section from all page
+*******************************************************************/
+
+.section_analist {
+	width: 100%;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: #ecf2ff;
+}
+
+.section_analist .box_analist {
+	width: 50%;
+	text-align: center;
+}
+
+.section_analist .box_analist img {
+	width: 100%;
+}
+
+.section_analist .box_analist p {
+	margin: 0 auto;
+	width: 65%;
+	padding: 20px;
+}
+
+.section_analist .box_analist hr {
+	width: 8%;
+	border: solid 1px #0033cc;
+}
+
+.section_analist .box_analist .title_analist {
+	font-size: 30px;
+	color: #0033cc;
+	font-weight: bold;
+	padding: 50px 0px 20px 0px;
+}
+
+.section_analist .box_analist .content_analist {
+	font-size: 22px;
+	color: #919191;
+	font-style: italic;
+	font-weight: lighter;
+	padding: 20px 0px 50px 0px;
+}
+
+/* Cartoon section style
+in this code part you can only edit only section from all page
+*******************************************************************/
+
+.section_cartoon {
+	width: 100%;
+	text-align: center;
+}
+
+.section_cartoon img {
+	width: 65%;
+}
+
+/* Infographic style */
+
+.section_infographic {
+	width: 100%;
+	min-height: 60px;
+}
+
+.section_infographic .content_infographic {
+	width: 100%;
+	min-height: 50px;
+	text-align: center;
+	padding: 20px 0px;	
+}
+
+.section_infographic .more_infographic {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	/*padding: 20px 0px 25px 0px;*/
+	font-size: 18px;
+	color: #0033cc;
+	font-weight: bold;
+	overflow:hidden;
+}
+
+.section_infographic .more_infographic div img {
+	width: 65%;
+}
+
+.btn_infog {
+	text-decoration: none;
+	color: #5b93ff;
+	cursor: pointer;
+}
+
+.hr_infog {
+	background-color: #0033cc;
+	border:solid 1px #5b93ff;
+}
+
+footer {
+	width: 100%;
+	max-width: 1280px;
+	min-height: 250px;
+	margin: 40px auto 0px;
+	background-color: #0033cc;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content:space-between;
+	align-items: center;
+}
+
+footer .logo_footer, .main_footer{
+	width: 50%;
+	min-width: 300px;
+}
+
+footer .logo_footer div img {
+	width: 65%;
+	padding: 0px 0px 0px 27px;
+}
+
+footer .main_footer{
+	width: 50%;
+	min-width: 300px;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content:space-around;
+}
+
+footer .main_footer div ul li {
+	color: #ffffff;
+	list-style: none;
+	padding: 2px;
+}
+
+.btn_footer {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/* detail new style -
+in this code part you can edit de style page*
+*******************************************************************/
+
+.detail_head {
+	width: 100%;
+	min-width: 300px;
+	max-width: 1280px;
+	min-height: 30px;
+	margin: 22px auto;
+}
+
+.detail_photo {
+	width: 100%;
+	min-height: 600px;
+	min-width: 300px;
+	display:  -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content:space-between;
+}
+
+.detail_photo_img_1 {
+	background-repeat: no-repeat;
+	background-image: url(../imgs/imgs_details/ideario_img_1intro_full.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+
+.detail_photo_img_2 {
+	background-repeat: no-repeat;
+	background-image: url(../imgs/imgs_details/ideario_img_2pop_full.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+
+.detail_photo_img_3 {
+	background-repeat: no-repeat;
+	background-image: url(../imgs/imgs_details/ideario_img_3gral_full.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+
+.detail_photo_img_4 {
+	background-repeat: no-repeat;
+	background-image: url(../imgs/imgs_details/ideario_img_4plus_full.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+
+.detail_photo .detail_title {
+	font-size: 60px;
+}
+
+.detail_photo > div {
+	width: 100%;
+	color: #ffffff;
+	text-align: center;
+	letter-spacing: 1.5px;
+	padding: 30px 0px 30px 0px;
+}
+
+.detail_photo > div > hr {
+	width: 90px;
+	margin: 16px auto 16px;
+	padding: 0px;
+}
+
+.detail_content {
+	width: 100%;
+	min-width: 300px;
+	max-width: 1280px;
+	min-height: 30px;
+	margin: 22px auto;
+}
+
+.detail_text {
+	width: 58%;
+	text-align: justify;
+	margin: 40px 0px 40px 30px;
+}
+
+.detail_text {
+	font-size: 18px;
+}
+
+.detail_text  b {
+	color: #0033cc;
+	font-weight: bold;
+}
+
+.detail_content .txt_1 {
+	font-size: 26px;
+	font-weight: bold;
+	color: #0033cc;
+}
+
+.detail_content .txt_2 {
+	font-size: 26px;
+	font-weight: bold;
+	color: #808080;
+	padding: 30px 0px 30px 0px;
+	border: 1px solid #0033cc;
+	border-width: 1px 0px 1px 0px;
+}
+
+.als_btn {
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+}
+
+.detail_img {
+	width: 58%;
+	margin: 40px 0px 40px 30px;
+}
+
+.detail_img img {
+	width: 100%;
+}
+
+/* site map style -
+in this code part you can edit de style page*
+*******************************************************************/
+
+.section_sitemap {
+	width: 100%;
+	max-width: 1280px;
+	min-height: 600px;
+	height: 100%;
+	margin: 22px auto;
+	display:  -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content:flex-start;
+	align-items: center;
+}
+
+.section_sitemap div {
+	width: 250px;
+	height: 250px;
+	padding: 20px;
+}
+
+.section_sitemap div ul li {
+	list-style: none;
+	text-decoration: none;
+	padding: 10px 0px 0px 0px;
+}
